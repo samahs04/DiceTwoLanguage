@@ -1,0 +1,100 @@
+
+@font-face {
+  font-family: 'kalameh';
+  src: url(../fontPersian/Kalameh_Bold.ttf) format('truettype');
+  src: url(../fontPersian/KalamehWeb_Bold.woff) format('woff');
+}
+body{
+  background-color: #393E46;
+  text-align: center;
+  margin: auto;
+}
+.container{
+  margin: auto;
+  width: 700px;
+  text-align: center;
+  color: #4ECCA3;
+}
+
+/* Home */
+h2{
+  font-family: "kalameh";
+  font-size: 4rem;
+}
+.btnHome{
+  font-family: "kalameh";
+  margin: 30px 0 0 20px;
+}
+a{
+  color: white;
+  text-decoration:none;
+}
+
+/* English */
+.titleEnglish{
+  font-family: "Lobster", cursive;
+}
+.textplayerEnglish{
+  font-family: 'Indie Flower', cursive;
+  margin-top: 32px;
+}
+.btnEnglish{
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Persian */
+.titlePersian{
+  font-family: 'Lalezar', cursive;
+}
+.textplayerPersian{
+  font-family: "kalameh";
+}
+.btnPersian{
+  font-family: 'Lalezar', cursive;
+}
+
+/* two */
+.player{
+  display: inline-block;
+  margin:50px 30px;
+}
+h1{
+  font-size: 8rem;
+  color: #4ECCA3;
+  margin: 30px 0 ;
+  text-shadow:5px 0 #232931;
+}
+img{
+  width: 150px;
+}
+.footer{
+  font-family: 'Indie Flower', cursive;
+  color: white;
+}
+button,input{
+  background-color: #9C060C;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 0 0 10px #202020;
+  font-size: 1.5rem;
+}
+button:hover{
+  background-color: #690104;
+}
+input:hover{
+  background-color: #690104;
+}
+p{
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+@media (max-width : 930px) {
+  .chooseLng{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
